@@ -1,0 +1,850 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main_nav{
+    position: absolute;
+    z-index: 2000;
+    padding: 0;
+}
+.mainLogo{
+    width: 40px;
+}
+.twoStick{
+    padding: 0 50px;
+}
+.twoStick .one{
+    width: 30px;
+    height: 5px;
+    margin-bottom: 2px;
+    background-color: #fff;
+}
+.twoStick .two{
+    width: 15px;
+    height: 5px;
+    margin-top: 3px;
+    background-color: #fff;
+}
+.nav-item{
+    margin-right: 50px;
+}
+.nav-item .nav-link:hover{
+    color: white !important;
+    text-decoration: underline;
+}
+
+.phone{
+    border-radius: 0.25rem;
+}
+.text{
+    padding: 0 !important;
+}
+.slide-move{
+    padding: 0 !important;
+}
+.slide{
+    background-image: url("../img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 0 !important;
+    opacity: 0.8;
+}
+
+.slide .slick-dots{
+    position: absolute;
+    bottom: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide .slick-dots li{
+    width: 5px;
+    height: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.slide .slick-dots li.slick-active{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+.parent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.slide-content{
+    font-size: 4.5rem;
+    letter-spacing: 7px;
+    line-height: 70px;
+}
+.slide-text{
+    color: #fff !important;
+    margin-top: 40px;
+}
+.second{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 2;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.note{
+    font-weight: bold;
+}
+.day{
+    color: #5a5959 !important;
+}
+.drive{
+    margin-top: 40px;
+    padding: 5px 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.show-design{
+    position: absolute;
+    width: 80px;
+    height: 160px;
+    left: 0;
+    top: 0;
+}
+.today-special{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.car-icon a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.car-icon a{
+    margin-right: 40px;
+}
+.car-btn{
+    padding: 15px 50px;
+    margin-right: 0 !important;
+}
+.car-btn:hover{
+    border-bottom: none !important;
+}
+.aa .arrow:hover{
+    text-decoration: none;
+}
+.aa .arrow{
+ outline: none;
+}
+.car-shop .slick-dots{
+    position: absolute;
+    bottom: -90px;
+    z-index: 100;
+}
+.car-shop .slick-dots li{
+    background-color: gray;
+    width: 40px !important;
+    height: 3px !important;
+    border-radius: 2px !important;
+}
+.car-shop .slick-dots li.slick-active{
+    width: 40px !important;
+    height: 3px !important;
+    border-radius: 2px !important;
+    background-color: white;
+}
+.special-section{
+    position: relative;
+}
+.rentals{
+    position: absolute;
+    top: -20px;
+    left: -80px;
+    font-size: 350px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.bgcar{
+    width: 700px;
+    height: 300px;
+    border-radius: 0.25rem;
+}
+.car_pic{
+    margin-top: 80px;
+    position: relative;
+}
+.cube{
+    width: 70px;
+    height: 150px;
+    position: absolute;
+    border-radius: 0.25rem;
+    top: 70px;
+    left: 680px;
+}
+.miami{
+    position: absolute;
+    top: 110px;
+    left: 730px;
+}
+.fu{
+    margin-left:50px;
+    font-size: 12px;
+}
+.fu:hover{
+    text-decoration: none;
+}
+.car-in{
+  border-radius: 0.25rem;
+}
+.content-note{
+    margin-top: 40px;
+}
+.icon-content{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon-content i{
+    font-size: 25px;
+}
+.icon-content p{
+    font-size: 12px;
+}
+
+.cont-row{
+  margin-top: 230px;
+}
+.cont-sec{
+    position: relative;
+}
+.cont-text{
+    user-select: none;
+    font-size: 350px;
+    position: absolute;
+    left: -150px;
+    top: 60px;
+}
+.sec-logo{
+   width: 150px;
+}
+.contact-last{
+    line-height: 40px;
+}
+.contact-icon a:hover{
+    text-decoration: none;
+}
+.contact-icon a{
+    margin-right: 15px;
+}
+.cont-form{
+
+}
+.contact-form input{
+   margin-bottom: 10px;
+}
+.cont-submit{
+    margin-left: 10px;
+}
+.cont-submit textarea{
+    margin-bottom: 10px;
+}
+.cont-submit .submit{
+   padding: 6px 140px;
+}
+.first{
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+.first a{
+    margin-bottom: 65px;
+    z-index: 1000;
+}
+.first a:hover{
+    text-decoration: none;
+}
+.show-nav{
+    position: fixed;
+    background-color: #000000;
+    animation: slowDown 0.5s linear;
+}
+.ani-one{
+    animation-delay: 1s;
+}
+.ani-onehalf{
+    animation-delay: 1.5s;
+}
+.ani-two{
+    animation-delay: 2s;
+}
+.ani-three{
+    animation-delay: 3s;
+}
+.underline{
+    color: red !important;
+}
+
+
+@keyframes slowDown {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+@media screen and (min-width: 150px) and (max-width: 400px){
+    .second{
+        position: absolute;
+        left: 0 !important;
+        padding: 0 15px;
+        top: -80px;
+        overflow: hidden !important;
+    }
+    .show-nav .phone{
+        display: none !important;
+    }
+    .slide .slick-dots{
+        position: absolute;
+        bottom: 100px;
+    }
+    .phone{
+        position: absolute !important;
+        top: 635px;
+        right: 0;
+    }
+    .nav-item{
+        padding: 5px 20px;
+        margin: 5px 0 5px 0!important;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 0.25rem;
+    }
+    .nav-link{
+        color: #000 !important;
+    }
+    .navbar-nav{
+        margin-top: 10px;
+        background-color: rgba(161, 161, 161, 0.5);
+        border-radius: 0.25rem;
+    }
+    .nav-item .nav-link:hover{
+        text-decoration: none;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .slide-text{
+        margin-top:15px !important;
+    }
+    .drive{
+        margin-top: 15px !important;
+    }
+    .today-special{
+        display: block;
+        margin-top: 40px;
+    }
+    .today-special .car-icon{
+        margin-top: 30px;
+    }
+    .car-icon .car-btn{
+        padding: 10px 15px;
+        margin-top: 40px;
+    }
+    .car-shop{
+
+    }
+    .special-section{
+        overflow: hidden;
+    }
+    .special-section .rentals{
+        font-size: 180px;
+        top: 200px;
+    }
+    .bgcar{
+        width: 300px;
+        height: 150px;
+        border-radius: 0.25rem;
+    }
+    .cube{
+        width: 30px;
+        height: 70px;
+        top: 40px;
+        left: 290px;
+    }
+    .miami{
+        top: 55px;
+        left: 300px;
+    }
+    .miami h3{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .miami a{
+        margin-left: 30px;
+        font-size: 5px;
+    }
+    .miami a span{
+        margin-right: 5px !important;
+    }
+    .content-note{
+        margin-top: 40px;
+    }
+    .content-note h3{
+        font-size: 20px;
+    }
+    .content-note p{
+        font-size: 10px;
+        margin: 10px 0 0 0 !important
+    }
+    .market-icon{
+        margin-top: 20px;
+    }
+    .car-in{
+        margin-top: 30px;
+        width: 300px !important;
+    }
+    .cont-sec{
+        overflow: hidden !important;
+    }
+    .cont-row{
+        margin-top: 50px !important;
+        position: relative;
+    }
+    .cont-text{
+        font-size: 200px !important;
+        left: -100px !important;
+        top: 0 !important;
+    }
+    .sec-logo{
+        width: 100px;
+        margin: 10px 0 0 20px !important;
+    }
+    .privacy{
+        position: absolute;
+        top: 550px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .cont-submit{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .submit{
+        width: 100%;
+    }
+    .copyright{
+        margin-top: 130px !important;
+        text-align: left !important;
+    }
+    .first{
+        position: absolute;
+        top: -320px !important;
+        left: 10px;
+    }
+    .first a{
+        margin-bottom: 20px;
+        z-index: 1000;
+    }
+
+}
+
+
+
+@media screen and (min-width: 410px) and (max-width: 600px){
+    .second{
+        position: absolute;
+        left: 0 !important;
+        padding: 0 15px;
+        top: -80px;
+        overflow: hidden !important;
+    }
+    .show-nav .phone{
+        display: none !important;
+    }
+    .slide .slick-dots{
+        position: absolute;
+        bottom: 100px;
+    }
+    .phone{
+        position: absolute !important;
+        top: 635px;
+        right: 0;
+    }
+    .nav-item{
+        padding: 5px 20px;
+        margin: 5px 0 5px 0!important;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 0.25rem;
+    }
+    .nav-link{
+        color: #000 !important;
+    }
+    .navbar-nav{
+        margin-top: 10px;
+        background-color: rgba(161, 161, 161, 0.5);
+        border-radius: 0.25rem;
+    }
+    .nav-item .nav-link:hover{
+        text-decoration: none;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .slide-text{
+        margin-top:15px !important;
+    }
+    .drive{
+        margin-top: 15px !important;
+    }
+    .today-special{
+        display: block;
+        margin-top: 40px;
+    }
+    .today-special .car-icon{
+        margin-top: 30px;
+    }
+    .car-icon .car-btn{
+        padding: 10px 15px;
+        margin-top: 40px;
+    }
+    .car-shop{
+
+    }
+    .special-section{
+      overflow: hidden;
+    }
+    .special-section .rentals{
+        font-size: 180px;
+        top: 200px;
+    }
+    .bgcar{
+        width: 300px;
+        height: 150px;
+        border-radius: 0.25rem;
+    }
+    .cube{
+        width: 30px;
+        height: 70px;
+        top: 40px;
+        left: 290px;
+    }
+    .miami{
+        top: 55px;
+        left: 300px;
+    }
+    .miami h3{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .miami a{
+        margin-left: 30px;
+        font-size: 5px;
+    }
+    .miami a span{
+        margin-right: 5px !important;
+    }
+    .content-note{
+        margin-top: 40px;
+    }
+    .content-note h3{
+        font-size: 20px;
+    }
+    .content-note p{
+        font-size: 10px;
+        margin: 10px 0 0 0 !important
+    }
+    .market-icon{
+        margin-top: 20px;
+    }
+    .car-in{
+        margin-top: 30px;
+        width: 300px !important;
+    }
+    .cont-sec{
+        overflow: hidden !important;
+    }
+    .cont-row{
+        margin-top: 50px !important;
+        position: relative;
+    }
+    .cont-text{
+        font-size: 200px !important;
+        left: -100px !important;
+        top: 0 !important;
+    }
+    .sec-logo{
+        width: 100px;
+        margin: 10px 0 0 20px !important;
+    }
+    .privacy{
+        position: absolute;
+        top: 550px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .cont-submit{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .submit{
+        width: 100%;
+    }
+    .copyright{
+        margin-top: 130px !important;
+        text-align: left !important;
+    }
+    .first{
+        position: absolute;
+        top: -320px !important;
+        left: 10px;
+    }
+    .first a{
+        margin-bottom: 20px;
+        z-index: 1000;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 800px){
+    .second{
+        position: absolute;
+        left: 50px !important;
+        padding: 0 15px;
+        top: -120px;
+    }
+    .show-nav .phone{
+        display: none !important;
+    }
+    .twoStick{
+
+    }
+    .phone{
+        position: absolute !important;
+        top: 950px;
+        right: 0;
+    }
+    .nav-item{
+        padding: 5px 20px;
+        margin: 5px 0 5px 0!important;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 0.25rem;
+    }
+    .nav-link{
+        color: #000 !important;
+    }
+    .navbar-nav{
+        margin-top: 10px;
+        background-color: rgba(161, 161, 161, 0.5);
+        border-radius: 0.25rem;
+    }
+    .nav-item .nav-link:hover{
+        text-decoration: none;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .slide-text{
+        margin-top:10px !important;
+    }
+    .drive{
+        margin-top: 20px !important;
+    }
+    .today-special{
+        margin-top: 70px;
+    }
+    .car-shop{
+        margin-top: 230px;
+    }
+    .car-icon .car-btn{
+        position: absolute;
+        top: 140px;
+        right: 0;
+    }
+    .special-section{
+        overflow: hidden;
+    }
+    .special-section .rentals{
+        font-size: 260px;
+        top: 270px;
+        right: 0;
+    }
+    .bgcar{
+        width: 500px;
+        height: 250px;
+        border-radius: 0.25rem;
+    }
+    .cube{
+        width: 40px;
+        height: 80px;
+        top: 80px;
+        left: 485px;
+    }
+    .miami{
+        top: 100px;
+        left: 510px;
+    }
+    .miami h3{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .miami a{
+        margin-left: 50px;
+        font-size: 10px;
+    }
+    .miami a span{
+        margin-right: 5px !important;
+    }
+    .content-note{
+        margin-top: 40px;
+    }
+    .content-note h3{
+        font-size: 30px;
+    }
+    .content-note p{
+        font-size: 17px;
+        margin: 10px 0 0 0 !important
+    }
+    .market-icon{
+        margin-top: 10px;
+    }
+    .car-in{
+        margin-top: 30px;
+        width: 500px !important;
+    }
+    .cont-sec{
+        overflow: hidden !important;
+        height:auto;
+    }
+    .cont-row{
+        margin-top: 200px !important;
+        position: relative;
+    }
+    .cont-text{
+        font-size: 300px !important;
+        left: -100px !important;
+        top: 30px !important;
+    }
+    .sec-logo{
+        width: 130px;
+        margin: 10px 0 0 80px !important;
+    }
+    .privacy{
+        position: absolute;
+        top: 430px;
+    }
+    .contact-form {
+     width:49% !important ;
+    }
+    .cont-submit{
+    width: 49% !important;
+    }
+    .submit{
+        width: 100%;
+    }
+    .copyright{
+        margin-top: 150px !important;
+        text-align: left !important;
+    }
+    .first{
+        position: absolute;
+        top: -600px;
+        left: 30px;
+    }
+    .first a{
+        margin-bottom: 65px;
+        font-size: 20px !important;
+        z-index: 1000;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width:1024px ) and (max-width: 1200px){
+    .second{
+        position: absolute;
+        left: 60px !important;
+        padding: 0 15px;
+    }
+    .show-nav .phone{
+        display: none !important;
+    }
+    .phone{
+        position: absolute !important;
+        top: 650px;
+        right: 0px;
+    }
+    .slide .slick-dots{
+        bottom: 20px;
+    }
+    .special-section{
+        overflow: hidden;
+    }
+    .cont-sec{
+        overflow: hidden !important;
+        height:auto;
+    }
+    .cont-row{
+        margin-top: 300px !important;
+        position: relative;
+    }
+    .cont-text{
+        font-size: 300px !important;
+        left: -100px !important;
+        top: 120px !important;
+    }
+    .sec-logo{
+        width: 130px;
+        margin: 0px 0 0 0px !important;
+    }
+    .privacy{
+        position: absolute;
+        top: 150px;
+    }
+    .contact-form {
+        width:48% !important ;
+    }
+    .cont-submit{
+        width: 48% !important;
+    }
+    .submit{
+        padding: 6px 15px !important;
+        width: 100% !important;
+    }
+    .copyright{
+        margin-top: 40px !important;
+        text-align: right !important;
+    }
+    .first{
+        position: absolute;
+        top: 190px;
+        left: 30px;
+    }
+    .first a{
+        margin-bottom: 65px;
+        z-index: 1000;
+    }
+
+
+}
+
